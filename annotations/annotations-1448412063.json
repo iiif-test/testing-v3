@@ -1,0 +1,73 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-test.github.io/testing-v3/annotations/annotations-1448412063.json",
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "e57a2ba8-c405-4454-bb28-1c2f658d08be",
+    "target" : {
+      "source" : "https://damsssl.llgc.org.uk/iiif/2.0/4389767/canvas/4389772.json",
+      "type" : "SpecificResource",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=2807,1607,1133,2055"
+      }
+    },
+    "@context" : "http://www.w3.org/ns/anno.jsonld",
+    "type" : "Annotation",
+    "body" : {
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<div><p>Henry Lowsley. Hull. age 18.\nJoseph Wynne. Bronyard. age 16\njointly charged with stealing\na horse trap and harness\nfrom the Bear Inn Cardigan\non the 23rd April 1897.\nApp'd by H. Davies Llandowry.\nnear Abergavenny on the 25.4.97\nAt the Lampeter R. Sessions, on\nthe 1st July 97. Lowsley was\nsentenced to 44 Mo H. L. and\nWynne to 2 Days imprisonment.\nPrevious convictions\nagainst Lowsley, and\nagainst Wynne.</p><p><small>HuggingFace (Qwen/Qwen2.5-VL-7B-Instruct)</small></p></div>"
+    },
+    "motivation" : "commenting"
+  }, {
+    "id" : "5aef20f8-2c72-442a-880e-5722eea24cc6",
+    "target" : {
+      "source" : "https://damsssl.llgc.org.uk/iiif/2.0/4389767/canvas/4389772.json",
+      "type" : "SpecificResource",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=1180,1944,846,1956"
+      }
+    },
+    "@context" : "http://www.w3.org/ns/anno.jsonld",
+    "type" : "Annotation",
+    "body" : {
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<div data-entity-id=\"Photograph\">\n  <b><u>Photograph</u></b><br/>\n  <div>\n      <p><b>Gender:</b> <span>Male<span></p>\n    <p><b>Name:</b> <span>Henry Lowsley<span></p>\n  </div>\n\n</div><br/><br/>"
+    },
+    "created" : "2026-01-27T16:09:38.431Z",
+    "creator" : {
+      "isGuest" : true,
+      "id" : "ea4gibYqqJd8QTpLEX6T"
+    },
+    "motivation" : "commenting"
+  }, {
+    "id" : "d485cf22-5baf-4231-8e97-58a03ad502e6",
+    "target" : {
+      "source" : "https://damsssl.llgc.org.uk/iiif/2.0/4389767/canvas/4389772.json",
+      "type" : "SpecificResource",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=1898,1548,790,2305"
+      }
+    },
+    "@context" : "http://www.w3.org/ns/anno.jsonld",
+    "type" : "Annotation",
+    "body" : {
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<div data-entity-id=\"Photograph\">\n  <b><u>Photograph</u></b><br/>\n  <div>\n      <p><b>Gender:</b> <span>Male<span></p>\n    <p><b>Name:</b> <span>Joseph Wynne<span></p>\n  </div>\n\n</div><br/><br/>"
+    },
+    "created" : "2026-01-27T16:10:09.562Z",
+    "creator" : {
+      "isGuest" : true,
+      "id" : "ea4gibYqqJd8QTpLEX6T"
+    },
+    "motivation" : "commenting"
+  } ]
+}
