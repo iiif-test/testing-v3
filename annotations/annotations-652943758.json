@@ -1,0 +1,30 @@
+{
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "id" : "https://iiif-test.github.io/testing-v3/annotations/annotations-652943758.json",
+  "type" : "AnnotationPage",
+  "items" : [ {
+    "id" : "f4254bd7-52c1-464a-acae-e10b862b2703",
+    "target" : {
+      "source" : "https://damsssl.llgc.org.uk/iiif/2.0/4389767/canvas/4389776.json",
+      "type" : "SpecificResource",
+      "selector" : {
+        "type" : "FragmentSelector",
+        "conformsTo" : "http://www.w3.org/TR/media-frags/",
+        "value" : "xywh=1000,2023,1247,1740"
+      }
+    },
+    "@context" : "http://www.w3.org/ns/anno.jsonld",
+    "type" : "Annotation",
+    "body" : {
+      "type" : "TextualBody",
+      "format" : "text/html",
+      "value" : "<div data-entity-id=\"Photograph\">\n  <b><u>Photograph</u></b><br/>\n  <div>\n      <p><b>Gender:</b> <span>Female<span></p>\n  </div>\n\n</div><br/><br/>"
+    },
+    "created" : "2026-01-27T16:06:29.651Z",
+    "creator" : {
+      "isGuest" : true,
+      "id" : "vneh6GFMBSos09QcaQ2M"
+    },
+    "motivation" : "commenting"
+  } ]
+}
